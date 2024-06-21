@@ -70,7 +70,7 @@ font-weight: 700;
         cursor: pointer;
         font-family: "Roboto", sans-serif
 }
-.button:hover {
+.button:hover, .button:focus {
     background-color: #404BBF;
     cursor: pointer;
 }
@@ -98,6 +98,7 @@ font-weight: 500;
         letter-spacing: 0.02em;
         text-align: center;
         text-transform: capitalize;
+        color: #2e2f42;
 }
 .team-item {
     background-color: #FFFFFF;
@@ -107,6 +108,7 @@ font-weight: 500;
         font-size: 20px;
         line-height: 120%;
         letter-spacing: 0.02em;
+        color:#2e2f42;
 }
 .team-member-position {
     font-weight: 400;
